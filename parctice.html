@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html><head>
+    <title>practice-web</title>
+    <meta charset="utf-8">
+<style>
+    .container{border: 10px solid red; display: flex; justify-content: start; height: 100px; flex-direction: column;
+                margin:10px; /*justify-content: center; align-items: center*/; flex-wrap: wrap;}
+    .one{border: 10px solid blue; /*flex-basis: 30px; /*flex-grow: 1;*/ /*flex-shrink: 0;*/}
+    .two{border: 10px solid yellow; /*flex-basis: 60px; /*flex-grow: 1;*/ /*flex-shrink: 0;*/}
+    .three{border: 10px solid green; /*flex-basis: 90px; /*flex-grow: 1; */ /*/flex-shrink: 0;*/}
+    .row{flex-direction: row;}
+    .colum{flex-direction: column;}
+</style>
+<body>
+<div class="container row">
+    <div class="one">one</div>
+    <div class="two">two</div>
+    <div class="three">three</div>
+</div>
+    <div class="container colum">
+    <div class="one">one</div>
+    <div class="two">two</div>
+    <div class="three">three</div>
+</div>  
+</body>
+</html>    
